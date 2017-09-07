@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+.motto {
+ margin-top: 150px;
+}
+
+.motto-text {
+    font-weight: 900;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.motto-kor-text {
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 260px;
+}
+
+.motto-sub-text {
+    text-align: right;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-right: 260px;
+}
+
+.motto-book {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: 260px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    padding: 10px 16px 10px 16px;
+}

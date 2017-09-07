@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+body {
+    background-image: url('../assests/img/background.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    padding: 10px 16px 10px 16px;
+}
+
+.hero {
+    margin-top: 60px;
+    padding: 70px 0 100px 0;
+    background-color: white;
+}
+
+.name {
+    margin-left: 15%;
+}
+
+.name-1, .name-2, .name-3 {
+    font-size: 10vh !important;
+    font-weight: 100;
+}
+
+.name-2 {
+    margin-left: 30px;
+}
+
+.name-3 {
+    margin-left: 60px;
+}
+
+.name-line {
+    width: 26vh;
+    margin: -33px 0 0 60px;
+    border: 8px solid rgba(252,241,19,0.9);
+}
+
+.hero, .profile {
+    background-color: white;
+}
+
+.profile {
+    display: table;
+    margin: 20% 0 17% 45%;
+    width: 35%;
+    height: 300px;
+    padding: 36px;
+}
+
+.contents {
+    display: table-cell;
+    text-align: right;
+    line-height: 40px !important;
+    vertical-align: middle;
+    font-weight: 100;
+}
+
+#motto {
+    padding-bottom: 3%;
+}
+
+.motto {
+    background-color: white;
+    margin-bottom: -3%  ;
+}
+
+.motto-text a {
+    color: #000;
+}
+
+.motto-text {
+    font-weight: 900;
+    font-size: 60px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.motto-title {
+    writing-mode: tb-rl;
+    font-weight: 100;
+    margin: -50px 0px 0px 10px;
+}
+
+#hobby {
+    padding-bottom: 3%;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.col {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+
+.hobby {
+    background-color: #e2e5e7;
+    margin-bottom: 0;
+}
+
+.hobby-title {
+    font-weight: 100;
+    writing-mode: tb-rl;
+    margin: -45px 0 0 10px;
+}
+
+.card-img-top {
+    border-bottom: 4px solid #fcf113;
+}
+
+.objective {
+    background-image: url("../assests/img/wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 55%;
+    height: 600px;
+    padding: 8% 0 0 20%;
+}
+
+.objective-card {
+    background-color: white;
+    display: table;
+    width: 45%;
+    height: 300px;
+    padding: 36px;
+}
+
+
+.objective-contents {
+    display: table-cell;
+    text-align: left;
+    line-height: 40px !important;
+    vertical-align: middle;
+    font-weight: 100;
+}
+
+.footer {
+    background-color: #262626;
+    height: 500px;
+    padding: 50px 0 50px 0;
+}
+
+.footer-title {
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.footer-sub-titles {
+    margin-top: 90px;
+}
+
+.footer-contact {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100;
+    color: white;
+    margin: 0 0;
+}
+
+.footer-sub-title {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    margin: 110px 0 0 0;
+    font-size: 16px;
+}
+
+.footer-contact a {
+    color: white;
+}

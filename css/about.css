@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+body {
+    background-image: url('../assests/img/about.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: #fff !important;
+    padding: 10px 16px 10px 16px;
+}
+
+.pushdown {
+    margin-top: 500px;
+}
+
+.profile {
+    background-color: white;
+    height: 50vh;
+}
+
+.profile-img {
+    margin: -100px 0 0 250px;
+    width: 200px;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.name {
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 38px;
+}
+
+.en-name {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.profile-contents {
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+}
+
+.profile-contents-left {
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.row, .col {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-contents-right {
+    margin-right: 250px;
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+    float: right;
+    text-align:right;
+}
+
+.footer {
+    font-weight: 100;
+    font-size: 14px;
+    text-align: center;
+}
